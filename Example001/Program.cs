@@ -10,9 +10,9 @@ int index = 0;
 
 void PrintArray(int[,] array)
 {
-    for (int i = 0; i < m; i++)
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < m; j++)
         {
             array[i, j] = rnd.Next(0, 10);
             Console.Write($"{array[i, j]} ");
